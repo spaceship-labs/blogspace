@@ -1,0 +1,220 @@
+/*
+Theme Name: SpaceShipLabs
+Theme URI: http://spaceshiplabs.com/
+Description: 
+Author: Spaceshiplabs
+Author URI: http://spaceshiplabs.com/
+Version: 1.0
+
+*/
+
+/*Imports*/
+@import url('reset.css');
+@import url('supersized.core.css');
+
+#supersized{z-index:0;background:transparent url(../img/navidad/fondo.jpg) repeat center top;background-size: 100% 100%;}
+html{margin:0!important;}
+#wrap{position: relative;min-height: 100%;width: 100%;overflow:hidden;display: table;}
+/*Global rules*/
+.container, .lateral
+.animate-width{
+	-webkit-transition: width .3s;
+	-moz-transition: width .3s;
+	-o-transition: width .3s;
+	-ms-transition: width .3s;
+	transition: width .3s;
+}
+.animate-opacity{
+	-webkit-transition: opacity .4s;
+	-moz-transition: opacity .4s;
+	-o-transition: opacity .4s;
+	-ms-transition: opacity .4s;
+	transition: opacity .4s;
+}
+.animated {
+	-webkit-animation-duration: 3s;
+	   -moz-animation-duration: 3s;
+	     -o-animation-duration: 3s;
+	        animation-duration: 3s;
+}
+@-webkit-keyframes opacity {
+    0% { opacity:0; }
+	50% { opacity:1; }
+    100% { opacity:0; }
+}
+@-moz-keyframes opacity {
+    0% { opacity:0; }
+    50% { opacity:1; }
+    100% { opacity:0; }
+}
+@-o-keyframes opacity {
+    0% { opacity:0; }
+    50% { opacity:1; }
+    100% { opacity:0; }
+}
+@keyframes opacity {
+    0% { opacity:0; }
+    50% { opacity:1; }
+    100% { opacity:0; }
+}
+.animated.opacity.on {
+	-webkit-animation-name: opacity;
+	-moz-animation-name: opacity;
+	-o-animation-name: opacity;
+	animation-name: opacity;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+}
+@-webkit-keyframes aatranslate {
+    0% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px);}
+	50% { transform:translateY(40px);-ms-transform:translateY(40px);-webkit-transform:translateY(40px);-moz-transform:translateY(40px);-o-transform:translateY(40px); }
+    100% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px); }
+}
+@-moz-keyframes aatranslate {
+    0% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px);}
+	50% { transform:translateY(40px);-ms-transform:translateY(40px);-webkit-transform:translateY(40px);-moz-transform:translateY(40px);-o-transform:translateY(40px); }
+    100% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px); }
+}
+@-o-keyframes aatranslate {
+    0% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px);}
+	50% { transform:translateY(40px);-ms-transform:translateY(40px);-webkit-transform:translateY(40px);-moz-transform:translateY(40px);-o-transform:translateY(40px); }
+    100% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px); }
+}
+@keyframes aatranslate {
+    0% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px);}
+	50% { transform:translateY(40px);-ms-transform:translateY(40px);-webkit-transform:translateY(40px);-moz-transform:translateY(40px);-o-transform:translateY(40px); }
+    100% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px); }
+}
+.animated.aatranslate.on {
+	-webkit-animation-name: aatranslate;
+	-moz-animation-name: aatranslate;
+	-o-animation-name: aatranslate;
+	animation-name: aatranslate;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite; }
+@-webkit-keyframes aatranslateup {
+    0% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px);}
+	50% { transform:translateY(-40px);-ms-transform:translateY(-40px);-webkit-transform:translateY(-40px);-moz-transform:translateY(-40px);-o-transform:translateY(-40px); }
+    100% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px); }
+}
+@-moz-keyframes aatranslateup {
+    0% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px);}
+	50% { transform:translateY(-40px);-ms-transform:translateY(-40px);-webkit-transform:translateY(-40px);-moz-transform:translateY(-40px);-o-transform:translateY(-40px); }
+    100% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px); }
+}
+@-o-keyframes aatranslateup {
+    0% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px);}
+	50% { transform:translateY(-40px);-ms-transform:translateY(-40px);-webkit-transform:translateY(-40px);-moz-transform:translateY(-40px);-o-transform:translateY(-40px); }
+    100% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px); }
+}
+@keyframes aatranslateup {
+    0% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px);}
+	50% { transform:translateY(-40px);-ms-transform:translateY(-40px);-webkit-transform:translateY(-40px);-moz-transform:translateY(-40px);-o-transform:translateY(-40px); }
+    100% { transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-o-transform:translateY(0px); }
+}
+.animated.aatranslateup.on {
+	-webkit-animation-name: aatranslateup;
+	-moz-animation-name: aatranslateup;
+	-o-animation-name: aatranslateup;
+	animation-name: aatranslateup;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite; 
+}
+@-webkit-keyframes walk-cycle {  
+    0% {background-position: 0 0; }
+    100% {background-position: 0 -3093px;}/*3093px*/
+    }
+}
+@-moz-keyframes walk-cycle {  
+    0% {background-position: 0 0; }
+    100% {background-position: 0 -3093px;}
+}
+@-o-keyframes walk-cycle {  
+    0% {background-position: 0 0; }
+    100% {background-position: 0 -3093px;}
+}
+@keyframes walk-cycle {  
+    0% {background-position: 0 0; }
+    100% {background-position: 0 -3093px;}
+}
+.walk-cycle.on{
+	-webkit-animation: walk-cycle 1s steps(14) infinite;
+	-moz-animation: walk-cycle 1s steps(14) infinite;
+	-o-animation: walk-cycle 1s steps(14) infinite;
+	animation: walk-cycle 1s steps(14) infinite;
+}
+#stars{width: 100%;height: 100%;position: fixed;z-index: 0;top: 0;}
+#stars .star{position:absolute;width:60px;height:60px;background:transparent url(../img/navidad/brillos.png);opacity:.05;}
+#stars .star.on{opacity:1;}
+#stars .star0{background-position:0 0;
+	-webkit-animation-duration: 5s;
+	   -moz-animation-duration: 5s;
+	     -o-animation-duration: 5s;
+	        animation-duration: 5s;}
+#stars .star1{background-position:-58px 0;
+	-webkit-animation-duration: 2s;
+	   -moz-animation-duration: 2s;
+	     -o-animation-duration: 2s;
+	        animation-duration: 2s;}
+#stars .star2{background-position:-36px -77px;}
+#stars .star3{background-position:-153px -77px;
+	-webkit-animation-duration: 4s;
+	   -moz-animation-duration: 4s;
+	     -o-animation-duration: 4s;
+	        animation-duration: 4s;}
+
+
+/*Lateral images*/
+.lateral{position:absolute;top:0;width:358px;height:491px;}
+.lateral.left{background:transparent url(../img/navidad/izq.png) no-repeat right top;left:0;}
+.lateral.right{background:transparent url(../img/navidad/der.png) no-repeat left top;right:0;}
+
+/*Content*/
+.container{position: relative;width: 480px;margin: 0 auto;text-align: center;padding-top: 20px;}
+.container .space_logo{position:relative;margin:0 auto;display:block;background:transparent url(../img/navidad/space.png) no-repeat center center;margin-top: -25px;}
+.container .space_logo img{margin-bottom: -10px;opacity:.05;}
+.container .space_logo:hover img{opacity:1;}
+.container .cube{position:relative;padding-bottom:35px;margin-bottom:10px;height:240px;width: 400px;margin: 0 auto;
+	background:transparent url(../img/navidad/sombras_cubos.png) no-repeat center bottom;
+	/*background-image:  url(../img/navidad/nieve.gif) , url(../img/navidad/sombras_cubos.png);
+	background-position: center 20px, center bottom;*/
+}
+.container .cube .cube-left{position: absolute;left: 49px;top: 36px;opacity:1;
+	-webkit-animation-duration: 10s;
+	   -moz-animation-duration: 10s;
+	     -o-animation-duration: 10s;
+	        animation-duration: 10s;}
+.container .cube .cube-right{position: absolute;right: 40px;bottom: 35px;opacity:1;
+	-webkit-animation-duration: 10s;
+	   -moz-animation-duration: 10s;
+	     -o-animation-duration: 10s;
+	        animation-duration: 10s;}
+.container .cube .cube-left.on,.container .cube .cube-right.on{opacity:1;}
+.container .cube .cube-center{opacity:0;position: absolute;}
+.container .cube .cube-animate{position:absolute;width:216px;height:220px;left: 50%;top: 15px;margin-left: -108px;background:transparent url(../img/navidad/nieve.png)}
+.container .cube .logocliente{position: relative;top: 50%;margin-top: -57.5px;}
+.container .cube .cube-animate.walk-cycle{z-index: 1;}
+
+/*sticky footer*/
+#main {padding-bottom: 62px;display: table-cell;vertical-align: middle;}
+#footer {position: relative;margin-top: -62px;height: 40px;clear:both;
+background: #0F0D22;
+background: #0e0e21;
+color: #334460;
+text-align: center;padding-top: 22px;} 
+@media screen and (max-width:630px) {
+	.lateral{width: 240px;}
+}
+@media screen and (max-width:495px) {
+	.container{width:95%;padding-top: 20px;}
+	.space_logo img,
+	.space_logo{width:100%;max-width:229px;}
+	.complete{width:100%;}
+	.lateral{width: 180px;}
+	.container .cube{width: 100%;}
+	.container .cube .cube-right{right:10px;}
+	.container .cube .cube-left{left:10px;}
+}
